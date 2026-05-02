@@ -25,19 +25,19 @@ public class TestBase {
   static void beforeAll() {
     ChromeOptions options = new ChromeOptions();
     baseUrl =  "https://quality-lab.ru/";
-    Configuration.browser = System.getProperty("browser", "chrome");
+//    Configuration.browser = System.getProperty("browser", "chrome");
     Configuration.browserSize = System.getProperty("remoteBrowserSize", "1920x1080");
-//    Configuration.browserVersion = System.getProperty("browserVersion", "128.0");
+    Configuration.browserVersion = System.getProperty("browserVersion", "128.0");
     Configuration.headless = Boolean.parseBoolean(System.getProperty("headless", "false"));
-//    Configuration.pageLoadStrategy = "eager";
+    Configuration.pageLoadStrategy = "eager";
 //
-//    DesiredCapabilities capabilities = new DesiredCapabilities();
-//    capabilities.setCapability("selenoid:options", Map.<String, Object>of(
-//      "enableVNC", true,
-//      "enableVideo", true
-//    ));
-//    Configuration.remote = System.getProperty("user1", "1234");
-//    Configuration.browserCapabilities = options;
+    DesiredCapabilities capabilities = new DesiredCapabilities();
+    capabilities.setCapability("selenoid:options", Map.<String, Object>of(
+      "enableVNC", true,
+      "enableVideo", true
+    ));
+    Configuration.remote = System.getProperty("user1", "1234");
+    Configuration.browserCapabilities = options;
   }
 
   @BeforeEach
