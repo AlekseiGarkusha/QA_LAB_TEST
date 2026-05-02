@@ -14,48 +14,48 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import tests.Config;
 
-import static com.codeborne.selenide.Configuration.baseUrl;
+
+import java.util.Map;
+
 import static com.codeborne.selenide.Selenide.closeWebDriver;
-import static com.codeborne.selenide.Selenide.open;
 
 public class TestBase {
+
+
+  @BeforeEach
+  void addListener() {
+    SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+  }
+
 
   @BeforeAll
   static void beforeAll() {
     ChromeOptions options = new ChromeOptions();
-    baseUrl =  "https://quality-lab.ru/";
-//    Configuration.browser = System.getProperty("browser", "chrome");
+    Configuration.baseUrl = System.getProperty("baseUrl", "https://quality-lab.ru/");
+    Configuration.browser = System.getProperty("browser", "chrome");
     Configuration.browserSize = System.getProperty("remoteBrowserSize", "1920x1080");
     Configuration.browserVersion = System.getProperty("browserVersion", "128.0");
     Configuration.headless = Boolean.parseBoolean(System.getProperty("headless", "false"));
     Configuration.pageLoadStrategy = "eager";
-//
     DesiredCapabilities capabilities = new DesiredCapabilities();
     capabilities.setCapability("selenoid:options", Map.<String, Object>of(
       "enableVNC", true,
       "enableVideo", true
     ));
-    Configuration.remote = System.getProperty("user1", "1234");
+    Configuration.remote = Config.getRemoteUrl();
     Configuration.browserCapabilities = options;
   }
 
-  @BeforeEach
-  void addListener() {
-    SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-    Configuration.proxyEnabled = true; // Включаем прокси
-    open(baseUrl);
-    // Добавляем слушатель WebSocket
-
-  }
-
-//  @BeforeEach
-//  protected void open(String baseUrl) {
-//
-//  }
-
   @AfterEach
   void addAttachments() {
+//    Attach.screenshotAs("Last screenshot");
+//    Attach.pageSource();
+//    Attach.browserConsoleLogs();
+//    Attach.addVideo();
+//    Attach.attachAsText("Some file", "Some content");
     closeWebDriver();
   }
 }
