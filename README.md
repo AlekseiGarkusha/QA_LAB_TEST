@@ -41,18 +41,20 @@
   <img src="img/jenkins.png" width="850">
 </p>
 
-<p align="center">
-   ## Использование Selenoide
+<h2 align="center">Использование Selenoide.</h2>
+
+<p align="margin">
   <img src="img/selenoid.png" width="850">
 </p>
 
+<h2 align="center">Удобный и понятный отчёт в Allure.</h2>
 <p align="center">
-   ## Удобный и понятный отчёт в Allure
   <img src="img/allure.png" width="850">
 </p>
 
+<h2 align="center">Личный отчёт в telegrame.</h2>
 <p align="center">
-   ## Удобный и понятный отчёт в Allure
+   ## 
   <img src="img/telegram.png" width="850">
 </p>
 
