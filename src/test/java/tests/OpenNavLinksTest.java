@@ -25,8 +25,8 @@ public class OpenNavLinksTest extends TestBase {
   @Owner("AlexeyGarkusha")
   @Severity(SeverityLevel.BLOCKER)
   @DisplayName("Проверка на открытие страниц меню")
-  public void signUpForAConsultation() throws InterruptedException {
-    
+  public void signUpForAConsultation() {
+
     step("Проверка открытия страницы -'Аутсорсинг'", () -> {
       pageClientForm.openMenuOutsourcing(testData.linkOutsourcing);
       navLinksCheck.checkOpenPage(testData.titleOutsourcing,testData.linkOutsourcing);
