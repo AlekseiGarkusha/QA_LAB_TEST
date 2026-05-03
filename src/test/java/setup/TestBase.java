@@ -25,14 +25,6 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static com.codeborne.selenide.Selenide.open;
 
 public class TestBase {
-
-
-  @BeforeEach
-  void addListener() {
-    SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-  }
-
-
   @BeforeAll
   static void beforeAll() {
     ChromeOptions options = new ChromeOptions();
@@ -49,7 +41,11 @@ public class TestBase {
     ));
     Configuration.remote = Config.getRemoteUrl();
     Configuration.browserCapabilities = options;
+  }
 
+  @BeforeEach
+  void addListener() {
+    SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     open(baseUrl);
   }
 
