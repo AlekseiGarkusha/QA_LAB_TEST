@@ -20,7 +20,9 @@ import tests.Config;
 
 import java.util.Map;
 
+import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selenide.closeWebDriver;
+import static com.codeborne.selenide.Selenide.open;
 
 public class TestBase {
 
@@ -34,7 +36,7 @@ public class TestBase {
   @BeforeAll
   static void beforeAll() {
     ChromeOptions options = new ChromeOptions();
-    Configuration.baseUrl = System.getProperty("baseUrl", "https://quality-lab.ru/");
+    baseUrl = System.getProperty("baseUrl", "https://quality-lab.ru/");
     Configuration.browser = System.getProperty("browser", "chrome");
     Configuration.browserSize = System.getProperty("remoteBrowserSize", "1920x1080");
     Configuration.browserVersion = System.getProperty("browserVersion", "128.0");
@@ -47,6 +49,8 @@ public class TestBase {
     ));
     Configuration.remote = Config.getRemoteUrl();
     Configuration.browserCapabilities = options;
+
+    open(baseUrl);
   }
 
   @AfterEach
