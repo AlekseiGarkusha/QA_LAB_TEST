@@ -43,16 +43,16 @@
 
 <p align="center">
    ## Использование Selenoide
-  <img src="esources/img/selenoid.png" width="850">
+  <img src="resources/img/selenoid.png" width="850">
 </p>
 
 <p align="center">
    ## Удобный и понятный отчёт в Allure
-  <img src="(resources/img/allure.png" width="850">
+  <img src="resources/img/allure.png" width="850">
 </p>
 
 <p align="center">
    ## Удобный и понятный отчёт в Allure
-  <img src="(resources/img/telegram.png" width="850">
+  <img src="resources/img/telegram.png" width="850">
 </p>
 
