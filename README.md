@@ -36,12 +36,12 @@
 ![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Garkusha1991&theme=dracula)
 
 ## Запуск тестов в Jenkins - c рызной параметризацией.
-![img](src/main/resources/Jenkins.png)
+![img](src/main/resources/imgForReadmeMD/Jenkins.png)
 ## Запуск тестов удалённо на Selenoide
-![img](src/main/resources/Selenoid.png)
+![img](src/main/resources/imgForReadmeMD/Selenoid.png)
 ## Удобный и понятный отчёт в Allure
-![img](src/main/resources/Allure.png)
+![img](src/main/resources/imgForReadmeMD/Allure.png)
 ## Подключение личного отчёта в Telegram
-![img](src/main/resources/Telegram.png)
+![img](src/main/resources/imgForReadmeMD/Telegram.png)
 
 
