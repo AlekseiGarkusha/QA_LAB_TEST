@@ -50,7 +50,7 @@
   <img src="img/allure.png" width="850">
 </p>
 
-<h2 align="center">Личный отчёт в telegrame.</h2>
+<h2 align="center">Личный отчёт в telegram.</h2>
 <p align="center">
   <img src="img/telegram.png" width="850">
 </p>
