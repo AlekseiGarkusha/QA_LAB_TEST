@@ -26,9 +26,7 @@ public class OpenNavLinksTest extends TestBase {
   @Severity(SeverityLevel.BLOCKER)
   @DisplayName("Проверка на открытие страниц меню")
   public void signUpForAConsultation() throws InterruptedException {
-
-    $(byText("Согласен")).click();
-
+    
     step("Проверка открытия страницы -'Аутсорсинг'", () -> {
       pageClientForm.openMenuOutsourcing(testData.linkOutsourcing);
       navLinksCheck.checkOpenPage(testData.titleOutsourcing,testData.linkOutsourcing);
