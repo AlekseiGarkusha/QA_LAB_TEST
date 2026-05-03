@@ -38,21 +38,21 @@
 
 <p align="center">
     ## Запуск тестов в Jenkins - c разной параметризацией.
-  <img src="src/main/resources/img/jenkins.png" width="850">
+  <img src="resources/img/jenkins.png" width="850">
 </p>
 
 <p align="center">
    ## Использование Selenoide
-  <img src="src/main/resources/img/selenoid.png" width="850">
+  <img src="esources/img/selenoid.png" width="850">
 </p>
 
 <p align="center">
    ## Удобный и понятный отчёт в Allure
-  <img src="(src/main/resources/img/allure.png" width="850">
+  <img src="(resources/img/allure.png" width="850">
 </p>
 
 <p align="center">
    ## Удобный и понятный отчёт в Allure
-  <img src="(src/main/resources/img/telegram.png" width="850">
+  <img src="(resources/img/telegram.png" width="850">
 </p>
 
