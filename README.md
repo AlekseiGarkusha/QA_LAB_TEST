@@ -37,12 +37,10 @@
 
 <h2 align="center">Запуск тестов в Jenkins - c разной параметризацией.</h2>
 <p align="center">
-  
   <img src="img/jenkins.png" width="850">
 </p>
 
 <h2 align="center">Использование Selenoide.</h2>
-
 <p align="margin">
   <img src="img/selenoid.png" width="850">
 </p>
@@ -54,7 +52,6 @@
 
 <h2 align="center">Личный отчёт в telegrame.</h2>
 <p align="center">
-   ## 
   <img src="img/telegram.png" width="850">
 </p>
 
