@@ -4,6 +4,7 @@ import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import com.codeborne.selenide.selector.WithText;
 import data.TestData;
+import helpers.Attach;
 import helpers.NavLinksCheck;
 import io.qameta.allure.*;
 
@@ -32,6 +33,7 @@ public class OpenNavLinksTest extends TestBase {
   @Epic("test")
   @Owner("AlexeyGarkusha")
   @Severity(SeverityLevel.BLOCKER)
+  @Attachment
   public void openPageOutsourcing() {
     outsourcingPage.openMenuOutsourcing(testData.linkOutsourcing);
 
