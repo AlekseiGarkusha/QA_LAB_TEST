@@ -56,11 +56,10 @@
 </p>
 
 
-### <h2>Видео с прохождения тестa</h2>
+### <h2 align="center">Видео с прохождения тестa</h2>
 
 <p align="center">
-  <video width="800" controls>
-    <source src="media/video/b4d70f990c9382f81f4f8128152e637d.mp4" type="video/mp4">
+  <video src="https://github.com/user-attachments/assets/80ec1305-21e8-41a4-b181-9a6b3abd5a0c" width="800" controls muted>
   </video>
 </p>
 
