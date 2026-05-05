@@ -55,8 +55,8 @@ public class TestBase {
     Attach.screenshotAs("Last screenshot");
     Attach.pageSource();
     Attach.browserConsoleLogs();
+    closeWebDriver();
     Attach.addVideo();
     Attach.attachAsText("Some file", "Some content");
-    closeWebDriver();
   }
 }
