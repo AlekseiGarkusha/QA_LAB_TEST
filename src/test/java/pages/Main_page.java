@@ -6,13 +6,13 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class Main_page {
 
-  public Main_page openLinks(String value) {
+  public Main_page openLinks(String title) {
     $$("li.menu-item a.nav-link")
-      .findBy(text(value))
+      .findBy(text(title))
       .shouldBe(visible)
       .click();
 
-    return this;
+    return new Main_page();
   }
 
 }

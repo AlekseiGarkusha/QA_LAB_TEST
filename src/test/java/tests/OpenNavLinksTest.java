@@ -19,6 +19,7 @@ import static com.codeborne.selenide.logevents.SelenideLogger.step;
 
 public class OpenNavLinksTest extends TestBase {
   TestData testData = new TestData();
+  Outsourcing_page outsourcingPage = new Outsourcing_page();
   Consulting_page consultingPage = new Consulting_page();
   Cases_page casesPage = new Cases_page();
   Education_page educationPage = new Education_page();
@@ -32,7 +33,7 @@ public class OpenNavLinksTest extends TestBase {
   @Owner("AlexeyGarkusha")
   @Severity(SeverityLevel.BLOCKER)
   public void openPageOutsourcing() {
-    aboutUsPage.openMenuAboutUs(testData.linkOutsourcing);
+    outsourcingPage.openMenuOutsourcing(testData.linkOutsourcing);
 
     step("проверка на наличие заголовка", () -> {
       SelenideElement findTitle = $(withText(testData.linkOutsourcing));
@@ -102,7 +103,7 @@ public class OpenNavLinksTest extends TestBase {
   @Owner("AlexeyGarkusha")
   @Severity(SeverityLevel.BLOCKER)
   public void openPageContacts() {
-    contactsPage.openMenuContacts(testData.titleContacts);
+    contactsPage.openMenuContacts(testData.linkContacts);
 
     step("Проверка на наличие заголовка", () -> {
       SelenideElement findTitle = $(withText(testData.titleContacts));

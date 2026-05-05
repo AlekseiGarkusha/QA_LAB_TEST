@@ -6,8 +6,10 @@ public class Cases_page {
   Main_page mainPage = new Main_page();
 
   @Step("Переход на страницу - Кейсы")
-  public Main_page openMenuCases(String title) {
-    return openLinks(value);
+  public Cases_page openMenuCases(String title) {
+    mainPage.openLinks(title);
+
+    return this;
   }
 
 }

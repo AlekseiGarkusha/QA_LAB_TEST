@@ -6,8 +6,10 @@ public class Education_page {
   Main_page mainPage = new Main_page();
 
   @Step("Переход на страницу - Обучение")
-  public Main_page openMenuEducation(String title) {
-    return openLinks(value);
+  public Education_page openMenuEducation(String title) {
+    mainPage.openLinks(title);
+
+    return this;
   }
 
 }
