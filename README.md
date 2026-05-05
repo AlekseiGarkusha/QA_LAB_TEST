@@ -56,10 +56,11 @@
 </p>
 
 
-<h2>Видео с прохождения тест</h2>
+### <h2>Видео с прохождения тестa</h2>
 
 <p align="center">
-  <video src="media/video/b4d70f990c9382f81f4f8128152e637d.mp4" width="800" controls muted>
+  <video width="800" controls>
+    <source src="media/video/b4d70f990c9382f81f4f8128152e637d.mp4" type="video/mp4">
   </video>
 </p>
 
