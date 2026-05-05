@@ -37,21 +37,21 @@
 
 <h2 align="center">Запуск тестов в Jenkins - c разной параметризацией.</h2>
 <p align="center">
-  <img src="img/jenkins.png" width="850">
+  <img src="media/img/jenkins.png" width="850">
 </p>
 
 <h2 align="center">Использование Selenoide.</h2>
 <p align="margin">
-  <img src="img/selenoid.png" width="850">
+  <img src="media/img/selenoid.png" width="850">
 </p>
 
 <h2 align="center">Удобный и понятный отчёт в Allure.</h2>
 <p align="center">
-  <img src="img/allure.png" width="850">
+  <img src="media/img/allure.png" width="850">
 </p>
 
 <h2 align="center">Личный отчёт в telegram.</h2>
 <p align="center">
-  <img src="img/telegram.png" width="850">
+  <img src="media/img/telegram.png" width="850">
 </p>
 
