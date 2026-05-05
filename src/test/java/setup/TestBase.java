@@ -35,13 +35,15 @@ public class TestBase {
     Configuration.browserVersion = System.getProperty("browserVersion", "128.0");
     Configuration.headless = Boolean.parseBoolean(System.getProperty("headless", "false"));
     Configuration.pageLoadStrategy = "eager";
+
     DesiredCapabilities capabilities = new DesiredCapabilities();
+
     capabilities.setCapability("selenoid:options", Map.<String, Object>of(
       "enableVNC", true,
       "enableVideo", true
     ));
-    Configuration.remote = Config.getRemoteUrl();
     Configuration.browserCapabilities = options;
+    Configuration.remote= System.getProperty("remote");
   }
 
   @BeforeEach
