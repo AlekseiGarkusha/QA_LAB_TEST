@@ -55,3 +55,12 @@
   <img src="media/img/telegram.png" width="850">
 </p>
 
+
+<h2>Видео с прохождения тест</h2>
+
+<video width="800" controls>
+  <source src="b4d70f990c9382f81f4f8128152e637d.mp4" type="video/mp4">
+  Your browser does not support video.
+</video>
+
+
