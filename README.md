@@ -57,15 +57,6 @@
 
 
 ### <h2 align="center">Видео с прохождения тестa</h2>
-
-<html>
-  <body>
-    <video controls width="800">
-      <source src="media/video/b4d70f990c9382f81f4f8128152e637d.mp4" type="video/mp4">
-    </video>
-  </body>
-</html>
-
 <p align="center">
   <video src="media/video/video-test.mp4" width="800" controls muted>
   </video>
