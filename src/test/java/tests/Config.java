@@ -32,3 +32,7 @@
 ////  }
 //  }
 //}
+
+
+//-Dremote=https://$login + ":" + $password
+//    + "@selenoid.autotests.cloud/wd/hub
