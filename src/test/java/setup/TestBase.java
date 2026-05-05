@@ -35,12 +35,15 @@ public class TestBase {
     Configuration.pageLoadStrategy = "eager";
 
     DesiredCapabilities capabilities = new DesiredCapabilities();
+    capabilities.setCapability(ChromeOptions.CAPABILITY, options);
     capabilities.setCapability("selenoid:options", Map.<String, Object>of(
       "enableVNC", true,
       "enableVideo", true
     ));
     Configuration.browserCapabilities = capabilities;
-    Configuration.remote= System.getProperty("remote");
+    Configuration.remote = System.getProperty("remote");
+    System.out.println("ВОТ ПРОВЕРКА Remote: " + Configuration.remote);
+
   }
 
   @BeforeEach
