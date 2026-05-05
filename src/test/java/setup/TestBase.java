@@ -42,8 +42,6 @@ public class TestBase {
     ));
     Configuration.browserCapabilities = capabilities;
     Configuration.remote = System.getProperty("remote");
-    System.out.println("ВОТ ПРОВЕРКА Remote: " + Configuration.remote);
-
   }
 
   @BeforeEach

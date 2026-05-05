@@ -13,6 +13,7 @@ ext {
   AllureVersion = '2.32.0'
   AllureSelenide = '2.32.0'
   Slf4Version = '2.0.7'
+  AssertJVersion = '3.27.7'
 
   JupiterVersion = '6.0.3'
   JavaFakerVersion = '1.0.2'
@@ -40,7 +41,8 @@ dependencies {
     "com.codeborne:selenide:$SelenideVersion",
     "com.codeborne:selenide-proxy:$SelenideProxy",
     "org.slf4j:slf4j-simple:$Slf4Version",
-    "com.github.javafaker:javafaker:$JavaFakerVersion"
+    "com.github.javafaker:javafaker:$JavaFakerVersion",
+    "org.assertj:assertj-core:$AssertJVersion"
   )
 
   testImplementation(
@@ -50,7 +52,7 @@ dependencies {
 
   testImplementation(
     "io.qameta.allure:allure-selenide",
-    "io.qameta.allure:allure-junit5"
+    "io.qameta.allure:allure-junit5",
   )
 }
 
