@@ -53,21 +53,12 @@ public class TestBase {
   }
 
   @AfterEach
-  protected void addAttachments() {
+  void addAttachments() {
     Attach.screenshotAs("Last screenshot");
     Attach.pageSource();
     Attach.browserConsoleLogs();
-
-    String sessionId = WebDriverRunner.hasWebDriverStarted()
-      ? ((RemoteWebDriver) WebDriverRunner.getWebDriver()).getSessionId().toString()
-      : null;
-
-    closeWebDriver(); // закрыли → видео записалось
-
-    if (sessionId != null) {
-      Attach.addVideo(sessionId); // используем сохранённый sessionId
-    }
-
-    Attach.attachAsText("Some file", "Some content");
+    Attach.addVideo();
+//        Attach.attachAsText("Some file", "Some content");
+    closeWebDriver();
   }
 }

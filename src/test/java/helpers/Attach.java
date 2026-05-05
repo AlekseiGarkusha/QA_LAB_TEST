@@ -1,7 +1,6 @@
 package helpers;
 
 import com.codeborne.selenide.Selenide;
-import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -38,14 +37,10 @@ public class Attach {
   }
 
   @Attachment(value = "Video", type = "text/html", fileExtension = ".html")
-  public static void addVideo(String sessionId) {
-    String videoUrl = "http://selenoid-host:4444/video/" + sessionId + ".mp4";
-
-    Allure.addAttachment("Video", "text/html",
-      "<html><body><video width='100%' height='100%' controls autoplay>" +
-        "<source src='" + videoUrl + "' type='video/mp4'>" +
-        "</video></body></html>",
-      ".html");
+  public static String addVideo() {
+    return "<html><body><video width='100%' height='100%' controls autoplay><source src='"
+      + getVideoUrl()
+      + "' type='video/mp4'></video></body></html>";
   }
 
   public static URL getVideoUrl() {
