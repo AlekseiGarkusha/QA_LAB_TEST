@@ -38,7 +38,7 @@ public class OpenNavLinksTest extends TestBase {
     outsourcingPage.openMenuOutsourcing(testData.linkOutsourcing);
 
     step("проверка на наличие заголовка", () -> {
-      SelenideElement findTitle = $(withText("testData.linkOutsourcing"));
+      SelenideElement findTitle = $(withText(testData.linkOutsourcing));
       Assertions.assertTrue(findTitle.exists(), "Страница - " + testData.titleOutsourcing + "  не открылась");
     });
   }
