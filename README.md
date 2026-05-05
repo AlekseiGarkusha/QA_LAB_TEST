@@ -67,7 +67,7 @@
 </html>
 
 <p align="center">
-  <video src="media/video/b4d70f990c9382f81f4f8128152e637d.mp4" width="800" controls muted>
+  <video src="media/video/video-test.mp4" width="800" controls muted>
   </video>
 </p>
 
