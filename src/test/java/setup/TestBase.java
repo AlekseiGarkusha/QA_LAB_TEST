@@ -7,6 +7,7 @@ package setup;
  */
 
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
 
 import helpers.Attach;
@@ -16,6 +17,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.util.Map;
 
@@ -55,8 +57,17 @@ public class TestBase {
     Attach.screenshotAs("Last screenshot");
     Attach.pageSource();
     Attach.browserConsoleLogs();
-    closeWebDriver();
-    Attach.addVideo();
+
+    String sessionId = WebDriverRunner.hasWebDriverStarted()
+      ? ((RemoteWebDriver) WebDriverRunner.getWebDriver()).getSessionId().toString()
+      : null;
+
+    closeWebDriver(); // закрыли → видео записалось
+
+    if (sessionId != null) {
+      Attach.addVideo(sessionId); // используем сохранённый sessionId
+    }
+
     Attach.attachAsText("Some file", "Some content");
   }
 }
