@@ -14,19 +14,18 @@ import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 import static org.openqa.selenium.logging.LogType.BROWSER;
 
 public class Attach {
-
   @Attachment(value = "{attachName}", type = "image/png")
-  public static byte[] screenshotAs(String AttachName) {
+  public static byte[] screenshotAs(String attachName) {
     return ((TakesScreenshot) getWebDriver()).getScreenshotAs(OutputType.BYTES);
   }
 
-  @Attachment(value = "Page Source", type = "image/plain")
+  @Attachment(value = "Page source", type = "text/plain") // or text/html
   public static byte[] pageSource() {
-    return (getWebDriver().getPageSource().getBytes(StandardCharsets.UTF_8));
+    return getWebDriver().getPageSource().getBytes(StandardCharsets.UTF_8);
   }
 
   @Attachment(value = "{attachName}", type = "text/plain")
-  public static String attachAsText(String AttachName, String message) {
+  public static String attachAsText(String attachName, String message) {
     return message;
   }
 
