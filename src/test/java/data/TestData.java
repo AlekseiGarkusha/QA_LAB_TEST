@@ -1,5 +1,6 @@
 package data;
 
+import com.codeborne.selenide.SelenideElement;
 import com.github.javafaker.Faker;
 
 import java.util.Locale;
@@ -26,4 +27,6 @@ public class TestData {
     linkContacts = "Контакты",
     linkAboutUs = "О нас";
 
+  public SelenideElement titleConsa() {
+  }
 }
