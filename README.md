@@ -1,18 +1,15 @@
-<h1 align=center>Привет, меня зовут Лёша<h1>
+<h1 align=center>Привет, меня зовут Лёша</h1>
     
-<h4 align=center>Я QA инженер<h4>
-
+<h4 align=center>Я QA инженер</h4>
 
 Рабочий проект:
-<ul>
-    <li>-- <a src=https://github.com/AlekseiGarkusha/QA_LAB_TEST>Github</a></li>
-    <li>-- <a src=https://jenkins.autotests.cloud/view/Alex_tests/job/Lesson_14/35/>Jenkins</a></li>
-    <li>-- <a src=https://jenkins.autotests.cloud/view/Alex_tests/job/Lesson_14/35/allure/>Allure-report</a></li>
-    <li>-- <a src=https://allure.autotests.cloud/launch/52913>TestOps</a></li>
-</ul>
 
-
-
+<p style="display: flex; flex-direction: column; gap: 8px;">
+  <a href="https://github.com/AlekseiGarkusha/QA_LAB_TEST">Github</a>
+  <a href="https://jenkins.autotests.cloud/view/Alex_tests/job/Lesson_14/35/">Jenkins</a>
+  <a href="https://jenkins.autotests.cloud/view/Alex_tests/job/Lesson_14/35/allure/">Allure-report</a>
+  <a href="https://allure.autotests.cloud/launch/52913">TestOps</a>
+</p>
 
 
 - Я пишу автотесты на - `Java` 
@@ -28,7 +25,7 @@
     <img style="display: flex; padding-right: 5px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original.svg" 
     width="40px" height="40px"/>
     <img style="display: flex; padding-right: 5px"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" 
-    width="0px" height="40px"/>
+    width="40px" height="40px"/>
     <img style="display: flex; padding-right: 5px"  src="https://avatars.githubusercontent.com/u/5879127?s=200&v=4" 
     width="40px" height="40px"/>
     <img style="display: flex; padding-right: 5px"  src="https://avatars.githubusercontent.com/u/124156?s=48&v=4" 
@@ -42,7 +39,7 @@
     </svg>
 </p>
 
-### <p align=center">Статистика профиля</p>
+<p align="center">Статистика профиля</p>
 
 ![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Garkusha1991&theme=dracula)
 
@@ -67,7 +64,7 @@
 </p>
 
 
-### <h2 align="center">Для фиксации багов - подключается </h2>
+<h2 align="center">Для фиксации багов - записывается видео</h2>
 
 <p>
  <video controls width="800">
