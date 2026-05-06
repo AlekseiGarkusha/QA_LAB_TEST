@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/82082f01-87b7-4fc9-b457-2aaf13e7f271
-
 <h1 align=center>Привет, меня зовут Лёша<h1>
 <h4 align=center>Я QA инженер<h4>
 
