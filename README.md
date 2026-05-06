@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/82082f01-87b7-4fc9-b457-2aaf13e7f271
+
 <h1 align=center>Привет, меня зовут Лёша<h1>
 <h4 align=center>Я QA инженер<h4>
 
@@ -60,9 +64,13 @@
 
 <p>
  <video controls width="800">
-  <source src="https://raw.githubusercontent.com/AlekseiGarkusha/QA_LAB_TEST/main/media/video/test-video.mp4" type="video/mp4">
+  <source src="https://github.com/user-attachments/assets/298b9504-51e5-4a25-aa5e-2fec9b1f1f60" type="video/mp4">
  </video>
 </p>
 
+
+
+
+https://github.com/user-attachments/assets/298b9504-51e5-4a25-aa5e-2fec9b1f1f60
 
 
