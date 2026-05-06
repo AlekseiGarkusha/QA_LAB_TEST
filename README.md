@@ -9,7 +9,7 @@
    - Телеграм <a> https://t.me/Alex_koktebel</a>
 
 
-<p style="color: #f7df86; align: center;">Я умею</p>
+<p align="center">Я умею</p>
 
 <p style="display: flex; justify-content: flex-start; padding-right: 10px;">
     <img style="display: flex; padding-right: 5px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40px" height="40px"/>
