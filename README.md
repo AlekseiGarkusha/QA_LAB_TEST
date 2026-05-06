@@ -4,11 +4,16 @@
 
 
 Рабочий проект:
+<ul>
+    <li>-- <a src=https://github.com/AlekseiGarkusha/QA_LAB_TEST>Github</a></li>
+    <li>-- <a src=https://jenkins.autotests.cloud/view/Alex_tests/job/Lesson_14/35/>Jenkins</a></li>
+    <li>-- <a src=https://jenkins.autotests.cloud/view/Alex_tests/job/Lesson_14/35/allure/>Allure-report</a></li>
+    <li>-- <a src=https://allure.autotests.cloud/launch/52913>TestOps</a></li>
+</ul>
 
-- <a src="https://github.com/AlekseiGarkusha/QA_LAB_TEST">Github</a>
-- <a src="https://jenkins.autotests.cloud/view/Alex_tests/job/Lesson_14/35/">Jenkins</a>
-- <a src="https://jenkins.autotests.cloud/view/Alex_tests/job/Lesson_14/35/allure/">Allure-report</a>
-- <a src="https://allure.autotests.cloud/launch/52913">TestOps</a>
+
+
+
 
 - Я пишу автотесты на - `Java` 
 - Связь со мной через:
