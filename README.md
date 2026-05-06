@@ -65,10 +65,9 @@
 </head>
 <body style="text-align:center; margin-top:50px;">
 
-  <video width="800" controls>
-    <source src="media/video/test-video.mp4" type="video/mp4">
-    Ваш браузер не поддерживает видео.
-  </video>
+  <video controls width="800">
+  <source src="https://AlekseiGarkusha.github.io/QA_LAB_TEST/video.mp4" type="video/mp4">
+</video>
 
 </body>
 </html>
