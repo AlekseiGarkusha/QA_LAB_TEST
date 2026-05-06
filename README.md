@@ -58,7 +58,7 @@
 
 ### <h2 align="center">Используется видео отчёт с прохождения тестов</h2>
 <p align="center">
-  <video src="media/video/video-test.mp4" width="800" controls muted>
+  <video src="../media/video/video-test.mp4" width="800" controls muted>
   </video>
 </p>
 
