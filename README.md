@@ -3,15 +3,21 @@
 <h4 align=center>Я QA инженер<h4>
 
 
+Рабочий проект:
+
+- <a src="https://github.com/AlekseiGarkusha/QA_LAB_TEST">Github</a>
+- <a src="https://jenkins.autotests.cloud/view/Alex_tests/job/Lesson_14/35/">Jenkins</a>
+- <a src="https://jenkins.autotests.cloud/view/Alex_tests/job/Lesson_14/35/allure/">Allure-report</a>
+- <a src="https://allure.autotests.cloud/launch/52913">TestOps</a>
+
 - Я пишу автотесты на - `Java` 
 - Связь со мной через:
    - Телефон <a src=mailto:+79782448328>+7(978)-244-83-28</a>
-   - Телеграм <a> https://t.me/Alex_koktebel</a>
-
+   - Телеграм <a src="https://t.me/Alex_koktebel">https://t.me/Alex_koktebel</a>
 
 <p align="center">Я умею</p>
 
-<p style="display: flex; justify-content: flex-start; padding-right: 10px;">
+<p style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px;">
     <img style="display: flex; padding-right: 5px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40px" height="40px"/>
     <img style="display: flex; padding-right: 5px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="40px" height="40px" />
     <img style="display: flex; padding-right: 5px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original.svg" 
@@ -31,7 +37,7 @@
     </svg>
 </p>
 
-### <p style="color: #f7df86;">Статистика профиля</p>
+### <p align=center">Статистика профиля</p>
 
 ![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Garkusha1991&theme=dracula)
 
