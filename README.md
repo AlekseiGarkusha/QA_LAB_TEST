@@ -59,7 +59,7 @@
 ### <h2 align="center">Используется видео отчёт с прохождения тестов</h2>
 <div style="text-align: center;">
   <video width="800" controls muted>
-    <source src="https://github.com/AlekseiGarkusha/QA_LAB_TEST/blob/main/media/video/video-test.mp4" type="video/mp4">
+    <source src="https://raw.githubusercontent.com/AlekseiGarkusha/QA_LAB_TEST/main/media/video/video-test.mp4" type="video/mp4">
     Ваш браузер не поддерживает видео.
   </video>
 </div>
