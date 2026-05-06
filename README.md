@@ -59,9 +59,8 @@
 ### <h2 align="center">Используется видео отчёт с прохождения тестов</h2>
 
 <p>
-
  <video controls width="800">
-  <source src="https://AlekseiGarkusha/QA_LAB_TEST/media/video/test-video.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/AlekseiGarkusha/QA_LAB_TEST/main/media/video/test-video.mp4" type="video/mp4">
  </video>
 </p>
 
