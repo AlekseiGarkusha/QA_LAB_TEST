@@ -4,13 +4,12 @@
 
 
 - Я пишу автотесты на - `Java` 
-- Со мной можно связаться по телефону 
+- Связь со мной через:
+   - Телефон <a src=mailto:+79782448328>+7(978)-244-83-28</a>
+   - Телеграм <a> https://t.me/Alex_koktebel</a>
 
-<a src=mailto:+79782448328>+7(978)-244-83-28</a>
-или написать в телеграм <a>https://t.me/Alex_koktebel</a>
 
-
-<p style="color: #f7df86;">Я умею</p>
+<p style="color: #f7df86; align: center">Я умею</p>
 
 <p style="display: flex; justify-content: flex-start; padding-right: 10px;">
     <img style="display: flex; padding-right: 5px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40px" height="40px"/>
