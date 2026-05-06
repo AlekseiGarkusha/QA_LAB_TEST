@@ -57,19 +57,13 @@
 
 
 ### <h2 align="center">Используется видео отчёт с прохождения тестов</h2>
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>Video</title>
-</head>
-<body style="text-align:center; margin-top:50px;">
 
-  <video controls width="800">
-  <source src="https://AlekseiGarkusha.github.io/QA_LAB_TEST/video.mp4" type="video/mp4">
-</video>
+<p>
 
-</body>
-</html>
+ <video controls width="800">
+  <source src="https://AlekseiGarkusha/QA_LAB_TEST/media/video/test-video.mp4" type="video/mp4">
+ </video>
+</p>
+
 
 
