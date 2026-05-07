@@ -124,3 +124,4 @@ public class OpenNavLinksTest extends TestBase {
   }
 
 }
+
