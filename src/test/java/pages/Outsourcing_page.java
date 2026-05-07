@@ -9,6 +9,6 @@ public class Outsourcing_page {
   public Outsourcing_page openMenuOutsourcing(String title) {
     mainPage.openLinks(title);
 
-    return  this;
+    return this;
   }
 }

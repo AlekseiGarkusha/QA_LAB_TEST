@@ -1,15 +1,9 @@
 package tests;
 
-import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
-import com.codeborne.selenide.logevents.SoftAssertsErrorsCollector;
-import com.codeborne.selenide.selector.WithText;
 import data.TestData;
-import helpers.Attach;
-import helpers.NavLinksCheck;
 import io.qameta.allure.*;
 
-import org.assertj.core.api.SoftAssertions;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import pages.*;
@@ -21,7 +15,6 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.logevents.SelenideLogger.step;
 
 public class OpenNavLinksTest extends TestBase {
-  SoftAssertions softAssertions = new SoftAssertions();
   TestData testData = new TestData();
   Outsourcing_page outsourcingPage = new Outsourcing_page();
   Consulting_page consultingPage = new Consulting_page();
