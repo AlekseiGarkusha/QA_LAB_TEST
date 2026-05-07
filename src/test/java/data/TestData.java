@@ -20,5 +20,4 @@ public class TestData {
     linkContacts = "Контакты",
     linkAboutUs = "О нас";
 
-
 }
