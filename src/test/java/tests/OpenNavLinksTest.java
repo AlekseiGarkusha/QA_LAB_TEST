@@ -13,6 +13,8 @@ import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.$;
 
 import static com.codeborne.selenide.logevents.SelenideLogger.step;
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.hasKey;
 
 public class OpenNavLinksTest extends TestBase {
   TestData testData = new TestData();
